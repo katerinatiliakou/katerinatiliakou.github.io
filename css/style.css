@@ -25,6 +25,15 @@ header{
 	background-size: 660px 450px;
 	background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 600px) {
+	header{
+		background: url(../images/Katerina_Tiliakou_4_wb.png);
+		background-size: 660px 660px;
+		background-repeat: no-repeat;
+	}
+}
+
 .section_overlay{
 	background: rgba(250,250,250, .0);
 }
@@ -39,6 +48,14 @@ header{
 	letter-spacing: 13px;
 	margin-top: -150px;
 }
+
+@media only screen and (max-width: 600px) {
+	.home_text h2{
+		font-size: 20px;
+		margin-top: -138px;
+	}
+}
+
 .home_text p{
 	color: #404040;
 	font-size: 14px;

@@ -242,8 +242,10 @@ margin-top: -40px;
 	position: relative;
 	transition: all 1s;
 	height: 320px;
+	background-color: #000;
 }
 .single_image img{
+	display: block;
 	max-height: 100%;
 	max-width: 100%;
 	width: auto;
